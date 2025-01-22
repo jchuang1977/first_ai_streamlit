@@ -11,7 +11,7 @@ with st.sidebar:
 theme = st.text_input("主題")
 submit = st.button("開始寫作")
 
-openai_api_key = st.secrets[OPENAI_API_KEY]
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 #if submit and not openai_api_key:
 #    st.info("請輸入你的OpenAI API Key")
 #    st.stop()
